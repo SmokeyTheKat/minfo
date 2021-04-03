@@ -7,7 +7,7 @@
 #define CRED "\x1b[38;2;255;0;0m"
 #define CWHITE "\x1b[38;2;255;255;255m"
 
-#define OS_ARTIX 8668419305919479808
+#define OS_ARTIX 7599908386896181248
 #define OS_ARCH	7163059223041243136
 
 #define PCOL CYELLOW
@@ -55,10 +55,10 @@ long get_os(char** pbuf)
 		len = strlen(buf);
 	}
 
-	buf[len-1] = 0;
+	buf[--len] = 0;
 
-	//buf = "ArchLinux";
-	//len = 9;
+	//buf = "ArtixLinux";
+	//len = 10;
 
 	//printf("%s\n", buf);
 
