@@ -1,0 +1,2 @@
+# minfo
+simple system info
